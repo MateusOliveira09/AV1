@@ -1,56 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <title>Contato - Mateus Technology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Games - Contato</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+        <header>
+            <h1>Neon Games</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
 
-<header>
-    <img src="logo.png" alt="Logo da Mateus Technology">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </nav>
-</header>
+        <main>
+            <section class="contato">
+                <h2 class="titulo-neon">Fale Conosco</h2>
+                <form>
+                    <input type="text" name="nome" placeholder="Seu Nome" required>
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
 
-<main>
-    <h2 class="titulo-principal">Fale Conosco</h2>
-    <p>Preencha o formulário abaixo para entrar em contato conosco ou cadastrar-se para receber novidades!</p>
+                <div class="info-contato card-texto">
+                    <p>Email: contato@neongames.com</p>
+                    <p>Redes Sociais: @neongames</p>
+                </div>
+            </section>
+        </main>
 
-    <h3 class="titulo-principal">Formulário de Cadastro</h3>
-    <form action="#" method="POST">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Ex.: João" required>
-
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone" placeholder="(00) 9 0000-0000" required>
-
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" placeholder="exe@gmail.com" required>
-
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="4" required></textarea>
-
-        <button type="submit">Enviar</button>
-    </form>
-
-    <h3 class="titulo-principal">Nossos Contatos:</h3>
-    <p><i class="fas fa-phone"></i> (31) 3488-3395 ou (31) 3229-9498</p>
-    <p><i class="fab fa-whatsapp"></i> (31) 3229-9494</p>
-    <p><i class="fab fa-instagram"></i> @mateustechnology</p>
-    <p><i class="fas fa-envelope"></i> contato@mateustechnology.com.br</p>
-    <p><i class="fas fa-map-marker-alt"></i> Rua Professor Galba Veloso, 327 - Santa Tereza, Belo Horizonte - MG, 31015-080</p>
-    <button type="button" onclick="window.location.href='https://api.whatsapp.com/send?phone=553132299494'">Entre em contato pelo Whatsapp</button>
-</main>
-
-<footer>
-    <p>Entre em contato: contato@mateustechnology.com.br</p>
-</footer>
-
+        <footer>
+            <p>&copy; 2025 Neon Games. Todos os direitos reservados.</p>
+        </footer>
+    </div>
 </body>
+
 </html>
